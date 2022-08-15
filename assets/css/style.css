@@ -1,0 +1,144 @@
+.section-header .custom-margin-auto {
+    margin-left: auto;
+}
+
+.section-accueil .carousel-item {
+    max-height: 600px;
+}
+
+.section-activite {}
+
+.section-accueil .carousel-caption {
+    top: 40%;
+}
+
+.section-projet {
+    margin: 25px 0;
+}
+
+.section-projet h2 {
+    margin: 12px 0 45px;
+    position: relative;
+}
+
+.section-projet h2::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: grey;
+    display: block;
+    bottom: -10px;
+}
+
+.section-projet .card-project {
+    position: relative;
+}
+
+.section-projet .card-project:hover .title-project {
+    background: white;
+    color: black;
+    border: 1px solid black;
+    transition: all 0.3s ease-in-out;
+}
+
+.section-projet .card-project .title-project {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    background: black;
+    color: white;
+    padding: 12px;
+}
+
+.section-projet .card-project img {
+    height: 250px;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.section-projet .card-project p {
+    margin-bottom: 25px;
+}
+
+.section-about {
+    margin-bottom: 25px;
+}
+
+.section-about h2 {
+    margin: 12px 0 45px;
+    position: relative;
+}
+
+.section-about h2::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: grey;
+    display: block;
+    bottom: -10px;
+}
+
+.section-about .card-team .card-img {
+    height: 280px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.section-about .card-team .card-img img {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.section-about .card-team .card-body {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.section-about .card-team .card-body .member-post {
+    display: block;
+    color: grey;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.section-about .card-team .card-footer .btn-contact {
+    display: block;
+    max-width: 100%;
+    padding: 5px;
+    text-align: center;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+}
+
+.section-about .card-team .card-footer .btn-contact:hover {
+    background: #888787;
+    transition: all 0.3s ease-in-out;
+}
+
+.section-contact {
+    margin-bottom: 25px;
+}
+
+.section-contact h2 {
+    margin: 12px 0 45px;
+    position: relative;
+}
+
+.section-contact h2::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: grey;
+    display: block;
+    bottom: -10px;
+}
+
+
+/*# sourceMappingURL=style.css.map */

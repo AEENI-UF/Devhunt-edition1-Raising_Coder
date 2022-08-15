@@ -1,0 +1,137 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.modal {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgb(66, 66, 66);
+}
+
+.modal-wrapper {
+    overflow: auto;
+    background: rgb(255, 255, 255);
+    width: 1400px;
+    max-width: calc(100vw - 20px);
+    max-height: calc(100vh - 20px);
+}
+
+#titre {
+    font-size: 50px;
+    color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    letter-spacing: 5px;
+    animation: title 5s infinite;
+}
+
+@keyframes title {
+    0% {
+        color: rgb(0, 247, 255);
+        text-shadow: 10 10 20 aqua;
+    }
+    50% {
+        color: rgb(12, 1, 117);
+        text-shadow: none;
+    }
+    100% {
+        color: rgb(0, 247, 255);
+        text-shadow: 10 10 20 aqua;
+    }
+}
+
+.logos {
+    width: 300px;
+    margin: auto;
+    border: solid rgb(1, 2, 82);
+    border-radius: 50%;
+}
+
+.logo {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.Par {
+    font-size: 20px;
+    text-align: left;
+    padding-left: 5%;
+    color: rgb(0, 0, 0);
+    letter-spacing: 3px;
+}
+
+p {
+    padding-left: 10%;
+    font-size: 15px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+
+.footer {
+    color: aliceblue;
+    font-size: 25px;
+    width: 100%;
+    background: rgb(4, 4, 43);
+    background-size: cover;
+    height: auto;
+    margin: 0px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+a {
+    font-size: 15px;
+    padding-left: 50px;
+}
+
+h6 {
+    text-decoration: underline;
+}
+
+.img {
+    width: 80%;
+    height: 600px;
+    animation: image 20s linear infinite;
+    margin: auto;
+}
+
+@keyframes image {
+    0% {
+        background: url(lin2.jpg);
+        background-size: cover;
+    }
+    30% {
+        background: url(lin2.jpg);
+        background-size: cover;
+    }
+    50% {
+        background: url(lin1.jpg);
+        background-size: cover;
+    }
+    80% {
+        background: url(lin1.jpg);
+        background-size: cover;
+    }
+    100% {
+        background: url(lin2.jpg);
+        background-size: cover;
+    }
+}

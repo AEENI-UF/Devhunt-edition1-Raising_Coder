@@ -1,0 +1,39 @@
+body {
+    background-image: url("3d-Wallpapers-2.jpg");
+    background-size: cover;
+    margin: 7%;
+}
+
+h1 {
+    color: rgb(24, 171, 207);
+    font-size: 50px;
+}
+
+.club {
+    color: rgba(1, 1, 15, 0.932);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 22px;
+    font-size: 16px;
+    width: 63%;
+    font-weight: bold;
+    padding-bottom: 9%;
+}
+
+.but {
+    font-family: fantasy;
+    font-size: 17px;
+    float: right;
+    color: rgb(214, 206, 206);
+    width: 45%;
+}
+
+.application {
+    float: left;
+    color: rgba(250, 245, 245, 0.986);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 22px;
+    font-size: 16px;
+    width: 47%;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}

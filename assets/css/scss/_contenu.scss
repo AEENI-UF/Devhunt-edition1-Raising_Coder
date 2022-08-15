@@ -1,0 +1,122 @@
+.section-accueil{
+    .carousel-item{
+        max-height: 450px;
+    }
+    .carousel-caption{
+        top: 40%;
+    }
+}
+.section-projet{
+    margin: 25px 0;
+    h2{
+        margin: 12px 0 45px;
+        position: relative;
+        &::after{
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 1px;
+            background: grey;
+            display: block;
+            bottom: -10px;
+        }
+    }
+    .card-project{
+        position: relative;
+        &:hover{
+            .title-project{
+                background: white;
+                color: black;
+                border: 1px solid black;
+                transition: all 0.3s ease-in-out;
+            }
+        }
+        .title-project{
+            position: absolute;
+            display: block;
+            top: 0;
+            left: 0;
+            background: black;
+            color: white;
+            padding: 12px;
+        }
+        img{
+            height: 250px;
+            max-width: 100%;
+            object-fit: cover;
+        }
+        p{
+            margin-bottom: 25px;
+        }
+    }
+}
+.section-about{
+    margin-bottom: 25px;
+    h2{
+        margin: 12px 0 45px;
+        position: relative;
+        &::after{
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 1px;
+            background: grey;
+            display: block;
+            bottom: -10px;
+        }
+    }
+    .card-team{
+        .card-img{
+            height: 280px;
+            overflow: hidden;
+            border-radius: 50%;
+            img{
+                width: 100%;
+                max-width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        .card-body{
+            margin-top: 5px;
+            text-align: center;
+            .member-post{
+                display: block;
+                color: grey;
+                margin-top: 5px;
+                margin-bottom: 15px;
+            }
+        }
+        .card-footer{
+            .btn-contact{
+                display: block;
+                max-width: 100%;
+                padding: 5px;
+                text-align: center;
+                width: 100%;
+                border: none;
+                border-radius: 5px;
+                &:hover{
+                    background: rgb(136, 135, 135);
+                    transition: all 0.3s ease-in-out;
+                }
+            }
+        }
+    }
+}
+.section-contact{
+    margin-bottom: 25px;
+    h2{
+        margin: 12px 0 45px;
+        position: relative;
+        &::after{
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 1px;
+            background: grey;
+            display: block;
+            bottom: -10px;
+        }
+    }
+}

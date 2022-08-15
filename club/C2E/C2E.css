@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(5, 5, 51);
+}
+
+#corps {
+    margin: 5%;
+    padding: 2%;
+}
+
+h1 {
+    font-size: 65px;
+    color: rgb(31, 224, 208);
+    margin: 7%;
+}
+
+.contenu {
+    font-size: 22px;
+    line-height: 30px;
+    font-family: serif;
+    color: whitesmoke;
+}
+
+.logo {
+    float: right;
+    margin-top: 9%;
+}
+
+.activite {
+    margin-top: 9%;
+    float: left;
+    font-size: 22px;
+    line-height: 27px;
+    font-family: serif;
+    color: rgba(245, 245, 250, 0.692);
+    width: 60%;
+    height: 40%;
+}
+
+ul li {
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.image {
+    padding-top: 43%;
+    padding-left: 5%;
+    padding-right: 2%;
+    line-height: 3%;
+}
